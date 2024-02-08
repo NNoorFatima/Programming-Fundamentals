@@ -1,0 +1,35 @@
+for fucntion overloading it must 
+- either have different number of parameters 
+-different order/sequence of parameters eg double fun(int, double) and double fun(double, int) 
+-different number of parameters
+- have different parameter type 
+
+to display global variable 
+cout<<: :sum;
+
+static variable 
+-has scope of locaal variable however has lifetime of global variable
+-they retain there value till the end of porgram 
+- if not initialised then value of 0 is automatically assigned
+
+
+//ARRAY
+collection of data items of same type of data
+-index starts from 0 
+-<data_type> <name>[size];
+size must be a constant variable 
+-implicit initialization: is when size is automaticcally determined by the compiler
+eg int num[]={1,2,3,4,5};   the size of this array is 5
+-partial initialisation 
+int num[5]={1,2};    assigns 1 to indec 0 and 2 t0 index 1
+
+
+//c-string or character array 
+-initialisation 
+char name[10];
+char name[]="hello world";
+char name[10]={'h','e','l','l','o'};
+-char array can be printied with one statement 
+eq cout<<name;    ///prints hello
+-when declaring char array save it as size+1 to store null character of \0
+
