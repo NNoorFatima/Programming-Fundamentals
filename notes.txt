@@ -33,3 +33,8 @@ char name[10]={'h','e','l','l','o'};
 eq cout<<name;    ///prints hello
 -when declaring char array save it as size+1 to store null character of \0
 
+
+//you can concatenate two string by taking separate input and then storing them in one variable like
+result= s1+s2;
+then you can display result
+
